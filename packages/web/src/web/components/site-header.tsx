@@ -46,9 +46,14 @@ export function SiteHeader() {
         <div className="flex items-center gap-2">
           {session?.user ? (
             <div className="hidden items-center gap-3 md:flex">
-              <span className="num text-[12px] text-sage">
+              <Link
+                to="/cont"
+                className={`num text-[12px] transition-colors hover:text-bone ${
+                  location === "/cont" ? "text-moss" : "text-sage"
+                }`}
+              >
                 {session.user.name || session.user.email}
-              </span>
+              </Link>
               <button
                 type="button"
                 onClick={() => authClient.signOut()}
@@ -90,16 +95,25 @@ export function SiteHeader() {
               </Link>
             ))}
             {session?.user ? (
-              <button
-                type="button"
-                onClick={() => {
-                  setOpen(false);
-                  authClient.signOut();
-                }}
-                className="label-caps mt-3 rounded-[4px] border border-bracken py-3 text-[13px] text-sage"
-              >
-                Ieși din cont
-              </button>
+              <>
+                <Link
+                  to="/cont"
+                  onClick={() => setOpen(false)}
+                  className="label-caps border-b border-bracken/60 py-3 text-[14px] text-sage"
+                >
+                  Contul meu
+                </Link>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setOpen(false);
+                    authClient.signOut();
+                  }}
+                  className="label-caps mt-3 rounded-[4px] border border-bracken py-3 text-[13px] text-sage"
+                >
+                  Ieși din cont
+                </button>
+              </>
             ) : (
               <Link
                 to="/auth"

@@ -5,6 +5,7 @@ import { auth } from "./auth";
 import { exam } from "./routes/exam";
 import { progress } from "./routes/progress";
 import { catalog } from "./routes/catalog";
+import { account } from "./routes/account";
 
 // API features are oRPC procedures, one file per feature in ./routes/,
 // composed into this router — typed end-to-end via the clients
@@ -14,6 +15,7 @@ export const router = {
   exam,
   progress,
   catalog,
+  account,
 };
 
 export type AppRouter = typeof router;
