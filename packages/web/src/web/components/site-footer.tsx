@@ -42,6 +42,11 @@ export function SiteFooter() {
                 Ghidul vânătorului
               </Link>
             </li>
+            <li>
+              <a href="/#preturi" className="hover:text-bone">
+                Prețuri
+              </a>
+            </li>
           </ul>
         </div>
 

@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { ArrowRight, BookOpen, Crosshair, MapPin, Target, Timer, Layers } from "lucide-react";
+import { ArrowRight, BookOpen, Check, Crosshair, MapPin, Target, Timer, Layers } from "lucide-react";
 import { SiteHeader } from "../components/site-header";
 import { SiteFooter } from "../components/site-footer";
 import { EnamelBadge } from "../components/badge";
@@ -51,6 +51,15 @@ const MODULES = [
     icon: BookOpen,
     wide: true,
   },
+];
+
+const PLAN = [
+  "Toate cele 953 de întrebări oficiale",
+  "Simulări de examen nelimitate, cronometrate",
+  "Flashcards și teste-grilă pe capitole",
+  "„Greșelile mele”, istoric și statistici salvate în cont",
+  "Ghid de teren, inventar de arme și harta armuriilor",
+  "Fără reclame, pentru totdeauna",
 ];
 
 const STEPS = [
@@ -251,6 +260,49 @@ export default function IndexPage() {
               ))}
             </div>
           )}
+        </div>
+      </section>
+
+      {/* PREȚURI */}
+      <section id="preturi" className="border-t border-bracken py-20 md:py-24">
+        <div className="shell">
+          <Reveal className="text-center">
+            <p className="eyebrow text-brass">Prețuri</p>
+            <h2 className="mx-auto mt-4 max-w-2xl text-[clamp(28px,3.4vw,44px)] text-bone">
+              Un singur plan. Gratuit, cu tot inclus.
+            </h2>
+            <p className="mx-auto mt-4 max-w-xl text-[16px] text-sage">
+              Fără abonament, fără card, fără reclame. Tot ce îți trebuie pentru examen și pentru
+              teren, într-un singur loc.
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.1} className="mx-auto mt-12 max-w-md">
+            <div className="rounded-[14px] border border-moss/50 bg-canopy p-8 md:p-10">
+              <p className="eyebrow text-moss">Plan complet</p>
+              <div className="mt-4 flex items-end gap-2">
+                <span className="font-display text-[64px] font-bold leading-none text-brass">0</span>
+                <span className="mb-2 text-[17px] text-sage">Lei / lună</span>
+              </div>
+              <ul className="mt-8 space-y-3">
+                {PLAN.map((item) => (
+                  <li key={item} className="flex items-start gap-3 text-[15px] text-bone">
+                    <Check size={17} className="mt-0.5 shrink-0 text-moss" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <Link
+                to="/auth"
+                className="label-caps mt-9 flex items-center justify-center gap-2 rounded-[4px] border border-moss bg-mossdeep px-6 py-3.5 text-[13px] text-bone transition-colors hover:bg-moss"
+              >
+                Creează cont gratuit <ArrowRight size={15} />
+              </Link>
+              <p className="num mt-4 text-center text-[12px] text-bracken">
+                Fără card la înscriere · progresul se salvează în cont
+              </p>
+            </div>
+          </Reveal>
         </div>
       </section>
 
