@@ -43,7 +43,7 @@ export default function AuthPage() {
     setError("");
     setGooglePending(true);
     try {
-      await authClient.managedAuth.signIn({ provider: "google" });
+      await authClient.signIn.social({ provider: "google", callbackURL: "/revizuire" });
     } catch {
       setError("Autentificarea cu Google nu a reușit.");
     } finally {

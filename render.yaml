@@ -1,0 +1,29 @@
+# Render Blueprint — https://render.com/docs/blueprint-spec
+# In Render: New + → Blueprint → connect this GitHub repo. Then set the secret
+# values (marked sync:false) in the service's Environment tab.
+services:
+  - type: web
+    name: vanator
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      # Set to the service's public URL once Render assigns it,
+      # e.g. https://vanator.onrender.com
+      - key: WEBSITE_URL
+        sync: false
+      - key: BETTER_AUTH_SECRET
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: DATABASE_AUTH_TOKEN
+        sync: false
+      # Optional — leave unset to keep email/password only.
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false

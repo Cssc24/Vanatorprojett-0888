@@ -1,0 +1,12 @@
+.git
+node_modules
+**/node_modules
+packages/web/dist
+packages/desktop/dist
+packages/desktop/dist-electron
+packages/mobile/.expo
+**/.expo
+*.log
+.env
+.env.*
+!.env.template
