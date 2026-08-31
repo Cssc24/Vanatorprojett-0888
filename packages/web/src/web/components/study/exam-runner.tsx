@@ -18,7 +18,11 @@ function clock(seconds: number) {
   return `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
 }
 
-export function ExamRunner() {
+export function ExamRunner({
+  onRunningChange,
+}: {
+  onRunningChange?: (running: boolean) => void;
+}) {
   const { data: session } = useSession();
   const [phase, setPhase] = useState<Phase>("idle");
   const [nonce, setNonce] = useState(0);
@@ -48,6 +52,22 @@ export function ExamRunner() {
       });
     }, 1000);
     return () => clearInterval(id);
+  }, [phase]);
+
+  // Let the page know whether an exam is in progress (for the leave guard).
+  useEffect(() => {
+    onRunningChange?.(phase === "running");
+  }, [phase, onRunningChange]);
+
+  // Warn before a full page unload (refresh / close / external link) mid-exam.
+  useEffect(() => {
+    if (phase !== "running") return;
+    const handler = (event: BeforeUnloadEvent) => {
+      event.preventDefault();
+      event.returnValue = "";
+    };
+    window.addEventListener("beforeunload", handler);
+    return () => window.removeEventListener("beforeunload", handler);
   }, [phase]);
 
   const score = useMemo(
@@ -203,7 +223,7 @@ export function ExamRunner() {
 
   return (
     <div className="space-y-5">
-      <div className="flex flex-wrap items-center justify-between gap-4 rounded-[10px] border border-bracken bg-canopy px-5 py-4">
+      <div className="sticky top-[120px] z-30 flex flex-wrap items-center justify-between gap-4 rounded-[10px] border border-bracken bg-canopy px-5 py-4 shadow-[0_10px_24px_-14px_rgba(0,0,0,.8)]">
         <div className="flex items-center gap-2">
           <Timer size={16} className="text-sage" />
           <span className={`num text-[20px] ${left < 300 ? "timer-danger" : "text-bone"}`}>

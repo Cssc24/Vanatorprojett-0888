@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { SiteHeader } from "../components/site-header";
 import { SiteFooter } from "../components/site-footer";
 import { Reveal } from "../components/reveal";
@@ -24,6 +24,31 @@ type TabKey = (typeof TABS)[number]["key"];
 
 export default function RevizuirePage() {
   const [tab, setTab] = useState<TabKey>("examen");
+  const [examRunning, setExamRunning] = useState(false);
+  const mainRef = useRef<HTMLElement>(null);
+
+  // When an exam starts, bring the runner up to the top (past the hero).
+  useEffect(() => {
+    if (examRunning) {
+      requestAnimationFrame(() =>
+        mainRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }),
+      );
+    }
+  }, [examRunning]);
+
+  function selectTab(key: TabKey) {
+    if (
+      examRunning &&
+      tab === "examen" &&
+      key !== "examen" &&
+      !window.confirm(
+        "Ai un examen în curs. Dacă schimbi secțiunea, pierzi răspunsurile. Continui?",
+      )
+    ) {
+      return;
+    }
+    setTab(key);
+  }
 
   return (
     <div className="min-h-screen bg-bark">
@@ -57,7 +82,7 @@ export default function RevizuirePage() {
             <button
               key={item.key}
               type="button"
-              onClick={() => setTab(item.key)}
+              onClick={() => selectTab(item.key)}
               className={`label-caps shrink-0 rounded-[4px] border px-4 py-2.5 text-[12px] transition-colors ${
                 tab === item.key
                   ? "border-moss bg-mossdeep text-bone"
@@ -70,9 +95,9 @@ export default function RevizuirePage() {
         </div>
       </div>
 
-      <main className="shell py-12 md:py-16">
+      <main ref={mainRef} className="shell scroll-mt-[120px] py-12 md:py-16">
         <Reveal key={tab} onScroll={false}>
-          {tab === "examen" && <ExamRunner />}
+          {tab === "examen" && <ExamRunner onRunningChange={setExamRunning} />}
           {tab === "flashcards" && <Flashcards />}
           {tab === "grila" && <QuizRunner />}
           {tab === "greseli" && <MissedPanel />}
