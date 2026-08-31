@@ -1,0 +1,765 @@
+[
+ {
+  "id": "semenic-gozna-srl-0",
+  "name": "SEMENIC GOZNA SRL",
+  "city": "Lugoj",
+  "county": "Timiș",
+  "address": "Str. Tesatorilor nr. 15",
+  "phone": "0771106602",
+  "tags": [
+   "arme"
+  ],
+  "lat": 45.6886,
+  "lng": 21.9033,
+  "verified": false
+ },
+ {
+  "id": "rapid-service-94-srl-1",
+  "name": "Rapid Service 94 srl",
+  "city": "Buzău",
+  "county": "Buzău",
+  "address": "Str. Independentei nr. 14",
+  "phone": "0744587366",
+  "tags": [
+   "arme"
+  ],
+  "lat": 45.15,
+  "lng": 26.8167,
+  "verified": false
+ },
+ {
+  "id": "romhunter-oradea-3",
+  "name": "Romhunter Oradea",
+  "city": "Oradea",
+  "county": "Bihor",
+  "address": "Str. clujului nr. 6",
+  "phone": "0753809713",
+  "tags": [
+   "arme"
+  ],
+  "lat": 47.0722,
+  "lng": 21.9217,
+  "verified": false
+ },
+ {
+  "id": "mag-impex-srl-4",
+  "name": "MAG Impex SRL",
+  "city": "Reșița",
+  "county": "Caraș-Severin",
+  "address": "Str. Bd. Republicii nr. 22",
+  "phone": "0255215501",
+  "tags": [
+   "arme",
+   "echipament"
+  ],
+  "lat": 45.3008,
+  "lng": 21.8892,
+  "verified": false
+ },
+ {
+  "id": "sc-armedanmar-srl-5",
+  "name": "SC ARMEDANMAR SRL",
+  "city": "Salonta",
+  "county": "Bihor",
+  "address": "Str. ORADIEI nr. 46",
+  "phone": "0770821830",
+  "tags": [
+   "arme"
+  ],
+  "lat": 46.8028,
+  "lng": 21.6497,
+  "verified": false
+ },
+ {
+  "id": "hunting-station-galati-6",
+  "name": "Hunting Station Galati",
+  "city": "Smârdan",
+  "county": "Galați",
+  "address": "Str. Nicolae Bălcescu nr. 28",
+  "phone": "0754917389",
+  "tags": [
+   "arme"
+  ],
+  "lat": 45.5,
+  "lng": 27.92,
+  "verified": false
+ },
+ {
+  "id": "broz-guns-7",
+  "name": "Broz Guns",
+  "city": "București — Sector 1",
+  "county": "București",
+  "address": "Str. Tipografilor nr. 28",
+  "phone": "0747767676",
+  "tags": [
+   "arme",
+   "cursuri",
+   "poligon"
+  ],
+  "lat": 44.475,
+  "lng": 26.08,
+  "verified": false
+ },
+ {
+  "id": "sc-kad-training-srl-8",
+  "name": "SC KAD TRAINING SRL",
+  "city": "Deva",
+  "county": "Hunedoara",
+  "address": "Str. Cetatii nr. 33",
+  "phone": "0722700123",
+  "tags": [
+   "arme"
+  ],
+  "lat": 45.8833,
+  "lng": 22.9,
+  "verified": false
+ },
+ {
+  "id": "sc-popular-srl-9",
+  "name": "SC POPULAR SRL",
+  "city": "Slatina",
+  "county": "Olt",
+  "address": "Str. GEORGE POBORAN nr. 14",
+  "phone": "0758230249",
+  "tags": [
+   "arme",
+   "poligon"
+  ],
+  "lat": 44.43,
+  "lng": 24.37,
+  "verified": false
+ },
+ {
+  "id": "artemis-iasi-10",
+  "name": "ARTEMIS IASI",
+  "city": "Iași",
+  "county": "Iași",
+  "address": "Str. Soseauna Moara de Foc",
+  "phone": "0736572412",
+  "tags": [
+   "arme"
+  ],
+  "lat": 47.1585,
+  "lng": 27.6014,
+  "verified": false
+ },
+ {
+  "id": "conrad-shooting-range-11",
+  "name": "CONRAD SHOOTING RANGE",
+  "city": "Bucecea",
+  "county": "Botoșani",
+  "address": "Str. p.c. nr. 102",
+  "phone": "0743450399",
+  "tags": [
+   "arme"
+  ],
+  "lat": 47.7667,
+  "lng": 26.45,
+  "verified": false
+ },
+ {
+  "id": "natura-si-vanatoare-13",
+  "name": "Natura si Vanatoare",
+  "city": "Reșița",
+  "county": "Caraș-Severin",
+  "address": "Str. Bd. Muncii nr. 14A",
+  "phone": "0726819117",
+  "tags": [
+   "arme"
+  ],
+  "lat": 45.3008,
+  "lng": 21.8892,
+  "verified": false
+ },
+ {
+  "id": "frig-srl-14",
+  "name": "Frig SRL",
+  "city": "Iași",
+  "county": "Iași",
+  "address": "Str. Silvestru nr. 22A",
+  "phone": "0741671999",
+  "tags": [
+   "arme"
+  ],
+  "lat": 47.1585,
+  "lng": 27.6014,
+  "verified": false
+ },
+ {
+  "id": "alert-srl-15",
+  "name": "Alert SRL",
+  "city": "Iași",
+  "county": "Iași",
+  "address": "Str. Bld Primaverii nr. 68",
+  "phone": "0755232581",
+  "tags": [
+   "arme"
+  ],
+  "lat": 47.1585,
+  "lng": 27.6014,
+  "verified": false
+ },
+ {
+  "id": "sc-vps-hobby-srl-16",
+  "name": "SC VPS HOBBY SRL",
+  "city": "Turnu Măgurele",
+  "county": "Teleorman",
+  "address": "Str. Republicii nr. c2",
+  "phone": "0765364382",
+  "tags": [
+   "arme"
+  ],
+  "lat": 43.75,
+  "lng": 24.87,
+  "verified": false
+ },
+ {
+  "id": "tactical-life-17",
+  "name": "Tactical Life",
+  "city": "Joița",
+  "county": "Giurgiu",
+  "address": "Str. Intrarea Poligonului nr. 1",
+  "phone": "0744530095",
+  "tags": [
+   "arme"
+  ],
+  "lat": 44.53,
+  "lng": 25.85,
+  "verified": false
+ },
+ {
+  "id": "drania-guns-team-srl-18",
+  "name": "Drania Guns Team Srl",
+  "city": "Buzău",
+  "county": "Buzău",
+  "address": "Str. Alexandru Marghiloman nr. 59",
+  "phone": "0785940044",
+  "tags": [
+   "arme"
+  ],
+  "lat": 45.15,
+  "lng": 26.8167,
+  "verified": false
+ },
+ {
+  "id": "fox-naturalis-bistrita-19",
+  "name": "Fox Naturalis (Bistrita)",
+  "city": "Bistrița",
+  "county": "Bistrița-Năsăud",
+  "address": "Str. Zorilor nr. 16",
+  "phone": "0747624942",
+  "tags": [
+   "arme"
+  ],
+  "lat": 47.1333,
+  "lng": 24.5,
+  "verified": false
+ },
+ {
+  "id": "armeria-patruno-spano-20",
+  "name": "Armeria Patruno & Spano",
+  "city": "Lugoj",
+  "county": "Timiș",
+  "address": "Str. Ion Creanga nr. 2/3",
+  "phone": "0738949328",
+  "tags": [
+   "arme"
+  ],
+  "lat": 45.6886,
+  "lng": 21.9033,
+  "verified": false
+ },
+ {
+  "id": "sc-mtg-hunting-srl-21",
+  "name": "SC MTG HUNTING SRL",
+  "city": "Câmpia Turzii",
+  "county": "Cluj",
+  "address": "Str. Laminoristilor nr. 194",
+  "phone": "0740422707",
+  "tags": [
+   "arme"
+  ],
+  "lat": 46.545,
+  "lng": 23.885,
+  "verified": false
+ },
+ {
+  "id": "hunter-house-srl-22",
+  "name": "HUNTER HOUSE SRL",
+  "city": "Târgoviște",
+  "county": "Dâmbovița",
+  "address": "Str. Piata Mihai Viteazu nr. nr.1",
+  "phone": "0739772529",
+  "tags": [
+   "arme"
+  ],
+  "lat": 44.925,
+  "lng": 25.4567,
+  "verified": false
+ },
+ {
+  "id": "guntech-23",
+  "name": "GunTech",
+  "city": "București — Sector 4",
+  "county": "București",
+  "address": "Str. Gazelei nr. 39A",
+  "phone": "0744224234",
+  "tags": [
+   "arme"
+  ],
+  "lat": 44.39,
+  "lng": 26.1,
+  "verified": false
+ },
+ {
+  "id": "sc-kem-kem-srl-24",
+  "name": "SC KEM KEM SRL",
+  "city": "Pitești",
+  "county": "Argeș",
+  "address": "Str. IC Bratianu nr. 5",
+  "phone": "0248610277",
+  "tags": [
+   "arme",
+   "cursuri",
+   "echipament"
+  ],
+  "lat": 44.8565,
+  "lng": 24.8692,
+  "verified": false
+ },
+ {
+  "id": "sniper-armusa-25",
+  "name": "Sniper Armusa",
+  "city": "Arad",
+  "county": "Arad",
+  "address": "Str. Corneliu Coposu nr. 9",
+  "phone": "0756386728",
+  "tags": [
+   "arme"
+  ],
+  "lat": 46.1866,
+  "lng": 21.3123,
+  "verified": false
+ },
+ {
+  "id": "sc-ustensile-vanatoare-e-i-pescuit-srl-26",
+  "name": "SC USTENSILE VÃ‚NÄ‚TOARE È˜I PESCUIT SRL",
+  "city": "Deva",
+  "county": "Hunedoara",
+  "address": "Str. Decebal nr. 15",
+  "phone": "0721329588",
+  "tags": [
+   "arme"
+  ],
+  "lat": 45.8833,
+  "lng": 22.9,
+  "verified": false
+ },
+ {
+  "id": "poli-gun-srl-27",
+  "name": "POLI GUN SRL",
+  "city": "Râmnicu Vâlcea",
+  "county": "Vâlcea",
+  "address": "Str. Strada TimiÈ™ nr. 2",
+  "phone": "0744643346",
+  "tags": [
+   "arme"
+  ],
+  "lat": 45.1047,
+  "lng": 24.3756,
+  "verified": false
+ },
+ {
+  "id": "vanatorul-si-pescarul-28",
+  "name": "Vanatorul si pescarul",
+  "city": "Piatra Neamț",
+  "county": "Neamț",
+  "address": "Str. Bulevardul Decebal nr. 35",
+  "phone": "0742065675",
+  "tags": [
+   "arme"
+  ],
+  "lat": 46.9275,
+  "lng": 26.3708,
+  "verified": false
+ },
+ {
+  "id": "s-c-pricomar-s-r-l-29",
+  "name": "S.C PRICOMAR S.R L",
+  "city": "Onești",
+  "county": "Bacău",
+  "address": "Str. CASINULUI nr. 2",
+  "phone": "0745173504",
+  "tags": [
+   "arme"
+  ],
+  "lat": 46.2486,
+  "lng": 26.755,
+  "verified": false
+ },
+ {
+  "id": "s-c-sch-jagd-s-r-l-30",
+  "name": "S.C. SCH JAGD S.R.L.",
+  "city": "Reghin",
+  "county": "Mureș",
+  "address": "Str. Dr. Kis Zoltan nr. 45",
+  "phone": "0752026251",
+  "tags": [
+   "arme"
+  ],
+  "lat": 46.7758,
+  "lng": 24.7061,
+  "verified": false
+ },
+ {
+  "id": "squad-store-s-r-l-31",
+  "name": "SQUAD STORE S.R.L.",
+  "city": "Florești",
+  "county": "Cluj",
+  "address": "Str. Avram Iancu nr. 492-500",
+  "phone": "0771675924",
+  "tags": [
+   "arme"
+  ],
+  "lat": 46.745,
+  "lng": 23.49,
+  "verified": false
+ },
+ {
+  "id": "walther-deva-32",
+  "name": "Walther Deva",
+  "city": "Deva",
+  "county": "Hunedoara",
+  "address": "Str. Maresal Averescu",
+  "phone": "0722234053",
+  "tags": [
+   "arme",
+   "echipament"
+  ],
+  "lat": 45.8833,
+  "lng": 22.9,
+  "verified": false
+ },
+ {
+  "id": "sc-simpadil-srl-33",
+  "name": "SC SIMPADIL SRL",
+  "city": "Brăila",
+  "county": "Brăila",
+  "address": "Str. B-dul Dorobantilor nr. 46",
+  "phone": "0757108498",
+  "tags": [
+   "arme"
+  ],
+  "lat": 45.2692,
+  "lng": 27.9575,
+  "verified": false
+ },
+ {
+  "id": "sc-albina-srl-35",
+  "name": "SC Albina SRL",
+  "city": "Hunedoara",
+  "county": "Hunedoara",
+  "address": "Str. Bd Dacia nr. 23",
+  "phone": "0744538019",
+  "tags": [
+   "arme"
+  ],
+  "lat": 45.75,
+  "lng": 22.9,
+  "verified": false
+ },
+ {
+  "id": "prohunting-commerce-36",
+  "name": "prohunting commerce",
+  "city": "Petrești",
+  "county": "Vrancea",
+  "address": "Str. cuza voda nr. 8",
+  "phone": "0726619230",
+  "tags": [
+   "arme"
+  ],
+  "lat": 45.7,
+  "lng": 27.2,
+  "verified": false
+ },
+ {
+  "id": "sc-hoks-armalite-srl-37",
+  "name": "SC HOKS ARMALITE SRL",
+  "city": "Baia Mare",
+  "county": "Maramureș",
+  "address": "Str. unirii nr. 26",
+  "phone": "0749804965",
+  "tags": [
+   "arme"
+  ],
+  "lat": 47.6567,
+  "lng": 23.5847,
+  "verified": false
+ },
+ {
+  "id": "sc-pricomar-srl-38",
+  "name": "SC.PRICOMAR.SRL",
+  "city": "Onești",
+  "county": "Bacău",
+  "address": "Str. Casinului nr. 2",
+  "phone": "0727012014",
+  "tags": [
+   "arme"
+  ],
+  "lat": 46.2486,
+  "lng": 26.755,
+  "verified": false
+ },
+ {
+  "id": "s-c-sotek-com-s-r-l-39",
+  "name": "S.C. SOTEK COM S. R. L.",
+  "city": "Buzău",
+  "county": "Buzău",
+  "address": "Str. Crinului nr. 28",
+  "phone": "0768997993",
+  "tags": [
+   "arme"
+  ],
+  "lat": 45.15,
+  "lng": 26.8167,
+  "verified": false
+ },
+ {
+  "id": "sc-fan-hunt-pro-sport-srl-40",
+  "name": "SC FAN HUNT PRO SPORT SRL",
+  "city": "Orșova Pădure",
+  "county": "Mureș",
+  "address": "Str. - nr. 41A",
+  "phone": "0752947401",
+  "tags": [
+   "arme"
+  ],
+  "lat": 46.7,
+  "lng": 24.6,
+  "verified": false
+ },
+ {
+  "id": "-41",
+  "name": "",
+  "city": "Arad",
+  "county": "Arad",
+  "address": "Str. Corneliu Coposu nr. 9",
+  "phone": "0770419022",
+  "tags": [
+   "arme"
+  ],
+  "lat": 46.1866,
+  "lng": 21.3123,
+  "verified": false
+ },
+ {
+  "id": "papillon-new-g-42",
+  "name": "papillon new g",
+  "city": "Șelimbăr",
+  "county": "Sibiu",
+  "address": "Str. mihai viteazu nr. 49",
+  "phone": "0753 33 33 41",
+  "tags": [
+   "arme"
+  ],
+  "lat": 45.76,
+  "lng": 24.18,
+  "verified": false
+ },
+ {
+  "id": "s-c-sniper-armusa-s-r-l-43",
+  "name": "S.C. SNIPER ARMUSA S.R.L.",
+  "city": "Arad",
+  "county": "Arad",
+  "address": "Str. Corneliu Coposu nr. 9",
+  "phone": "0770419022",
+  "tags": [
+   "arme"
+  ],
+  "lat": 46.1866,
+  "lng": 21.3123,
+  "verified": false
+ },
+ {
+  "id": "s-c-odesco-snack-s-r-l-44",
+  "name": "S.C. ODESCO-SNACK S.R.L",
+  "city": "Piatra Neamț",
+  "county": "Neamț",
+  "address": "Str. Str. BistriÈ›ei nr. 61",
+  "phone": "0756076106",
+  "tags": [
+   "arme"
+  ],
+  "lat": 46.9275,
+  "lng": 26.3708,
+  "verified": false
+ },
+ {
+  "id": "s-c-material-group-s-r-l-45",
+  "name": "S.C. MATERIAL GROUP S.R.L.",
+  "city": "Oradea",
+  "county": "Bihor",
+  "address": "Str. Decebal nr. 96",
+  "phone": "0259474040",
+  "tags": [
+   "arme"
+  ],
+  "lat": 47.0722,
+  "lng": 21.9217,
+  "verified": false
+ },
+ {
+  "id": "house-of-guns-international-srl-46",
+  "name": "HOUSE OF GUNS INTERNATIONAL SRL",
+  "city": "București — Sector 6",
+  "county": "București",
+  "address": "Str. Drumul La RoÈ™u nr. 1",
+  "phone": "0784415222",
+  "tags": [
+   "arme"
+  ],
+  "lat": 44.44,
+  "lng": 26.02,
+  "verified": false
+ },
+ {
+  "id": "squad-store-47",
+  "name": "Squad Store",
+  "city": "Florești",
+  "county": "Cluj",
+  "address": "Str. Avram Iancu nr. 492-500",
+  "phone": "0771676134",
+  "tags": [
+   "arme"
+  ],
+  "lat": 46.745,
+  "lng": 23.49,
+  "verified": false
+ },
+ {
+  "id": "sc-armacohunting-impex-srl-48",
+  "name": "SC ARMACOHUNTING IMPEX SRL",
+  "city": "Ploiești",
+  "county": "Prahova",
+  "address": "Str. Basarabilor nr. 20",
+  "phone": "0721635682",
+  "tags": [
+   "arme"
+  ],
+  "lat": 44.9469,
+  "lng": 26.0367,
+  "verified": false
+ },
+ {
+  "id": "sc-walter-bls-srl-49",
+  "name": "SC WALTER BLS SRL",
+  "city": "Baia Mare",
+  "county": "Maramureș",
+  "address": "Str. Bulevardul Bucuresti nr. nr. 138A",
+  "phone": "0749202312",
+  "tags": [
+   "arme"
+  ],
+  "lat": 47.6567,
+  "lng": 23.5847,
+  "verified": false
+ },
+ {
+  "id": "grand-power-investment-50",
+  "name": "Grand Power Investment",
+  "city": "Mogoșoaia",
+  "county": "Ilfov",
+  "address": "Str. soseaua Bucuresti-Targoviste nr. 12A",
+  "phone": "0728123877",
+  "tags": [
+   "arme"
+  ],
+  "lat": 44.5333,
+  "lng": 26.0,
+  "verified": false
+ },
+ {
+  "id": "agh-ro-51",
+  "name": "Agh.ro",
+  "city": "București — Sector 3",
+  "county": "București",
+  "address": "Str. calea mosilor nr. 205",
+  "phone": "0747092582",
+  "tags": [
+   "arme"
+  ],
+  "lat": 44.42,
+  "lng": 26.15,
+  "verified": false
+ },
+ {
+  "id": "albina-srl-52",
+  "name": "Albina Srl",
+  "city": "Hunedoara",
+  "county": "Hunedoara",
+  "address": "Str. bd Daci nr 23 bl G1 nr. 23",
+  "phone": "0744538019",
+  "tags": [
+   "arme"
+  ],
+  "lat": 45.75,
+  "lng": 22.9,
+  "verified": false
+ },
+ {
+  "id": "armeria-prasacu-53",
+  "name": "ARMERIA PRASACU",
+  "city": "Slatina",
+  "county": "Olt",
+  "address": "Str. PRIMAVERII nr. 6",
+  "phone": "0757079651",
+  "tags": [
+   "arme"
+  ],
+  "lat": 44.43,
+  "lng": 24.37,
+  "verified": false
+ },
+ {
+  "id": "amis-hobby-54",
+  "name": "Amis Hobby",
+  "city": "Pitești",
+  "county": "Argeș",
+  "address": "Str. Smardan nr. 41",
+  "phone": "0723354464",
+  "tags": [
+   "arme"
+  ],
+  "lat": 44.8565,
+  "lng": 24.8692,
+  "verified": false
+ },
+ {
+  "id": "kemkem-55",
+  "name": "KEMKEM",
+  "city": "Pitești",
+  "county": "Argeș",
+  "address": "Str. I. C. Bratianu nr. 300",
+  "phone": "0248610277",
+  "tags": [
+   "arme"
+  ],
+  "lat": 44.8565,
+  "lng": 24.8692,
+  "verified": false
+ },
+ {
+  "id": "sc-cazdro-srl-56",
+  "name": "SC CAZDRO SRL",
+  "city": "Cluj-Napoca",
+  "county": "Cluj",
+  "address": "Str. CORNELIU COPOSU nr. 108",
+  "phone": "0752416962",
+  "tags": [
+   "arme"
+  ],
+  "lat": 46.7712,
+  "lng": 23.6236,
+  "verified": false
+ }
+]

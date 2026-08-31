@@ -1,0 +1,192 @@
+{
+ "mammals": [
+  {
+   "species": "Căprior – mascul",
+   "start": "1 mai",
+   "end": "15 octombrie",
+   "quarters": "T2–T4"
+  },
+  {
+   "species": "Mistreț",
+   "start": "1 august",
+   "end": "31 ianuarie",
+   "quarters": "T3–T1"
+  },
+  {
+   "species": "Viezure",
+   "start": "1 august",
+   "end": "31 martie",
+   "quarters": "T3–T1"
+  },
+  {
+   "species": "Bizam",
+   "start": "1 septembrie",
+   "end": "15 aprilie",
+   "quarters": "T3–T2"
+  },
+  {
+   "species": "Capră neagră – selecție",
+   "start": "1 septembrie",
+   "end": "15 decembrie",
+   "quarters": "T3–T4"
+  },
+  {
+   "species": "Capră neagră – trofeu",
+   "start": "15 octombrie",
+   "end": "15 decembrie",
+   "quarters": "T4"
+  },
+  {
+   "species": "Căprior – femelă",
+   "start": "1 septembrie",
+   "end": "15 februarie",
+   "quarters": "T3–T1"
+  },
+  {
+   "species": "Cerb comun – femelă/vițel/selecție",
+   "start": "1 septembrie",
+   "end": "15 februarie",
+   "quarters": "T3–T1"
+  },
+  {
+   "species": "Cerb comun – mascul trofeu",
+   "start": "10 septembrie",
+   "end": "15 noiembrie",
+   "quarters": "T3–T4"
+  },
+  {
+   "species": "Cerb lopătar – femelă/vițel",
+   "start": "1 septembrie",
+   "end": "15 februarie",
+   "quarters": "T3–T1"
+  },
+  {
+   "species": "Cerb lopătar – mascul trofeu",
+   "start": "10 octombrie",
+   "end": "15 decembrie",
+   "quarters": "T4"
+  },
+  {
+   "species": "Câine enot / dihor / hermelină / jder / nevăstuică",
+   "start": "15 septembrie",
+   "end": "31 martie",
+   "quarters": "T3–T1"
+  },
+  {
+   "species": "Marmotă",
+   "start": "15 septembrie",
+   "end": "31 octombrie",
+   "quarters": "T3–T4"
+  },
+  {
+   "species": "Muflon",
+   "start": "15 septembrie",
+   "end": "15 decembrie",
+   "quarters": "T3–T4"
+  },
+  {
+   "species": "Iepure-de-câmp / de-vizuină",
+   "start": "1 noiembrie",
+   "end": "31 ianuarie",
+   "quarters": "T4–T1"
+  },
+  {
+   "species": "Șacal / vulpe",
+   "start": "tot anul",
+   "end": "tot anul",
+   "quarters": "T1–T4"
+  }
+ ],
+ "birds": [
+  {
+   "species": "Cioară grivă / coțofană",
+   "start": "1 iunie",
+   "end": "31 martie",
+   "quarters": "T2–T1"
+  },
+  {
+   "species": "Stăncuță",
+   "start": "10 iulie",
+   "end": "20 martie",
+   "quarters": "T3–T1"
+  },
+  {
+   "species": "Cioară-de-semănătură / rață sulițar",
+   "start": "15 august",
+   "end": "31 ianuarie",
+   "quarters": "T3–T1"
+  },
+  {
+   "species": "Gâscă-de-vară + rațe (grup)",
+   "start": "15 august",
+   "end": "15 februarie",
+   "quarters": "T3–T1"
+  },
+  {
+   "species": "Graur / guguștiuc",
+   "start": "15 august",
+   "end": "28 februarie",
+   "quarters": "T3–T1"
+  },
+  {
+   "species": "Prepeliță",
+   "start": "15 august",
+   "end": "31 octombrie",
+   "quarters": "T3–T4"
+  },
+  {
+   "species": "Turturică",
+   "start": "15 august",
+   "end": "30 septembrie",
+   "quarters": "T3"
+  },
+  {
+   "species": "Becațină / cocoșar / gaiță / sitar / sturzi",
+   "start": "1 septembrie",
+   "end": "28 februarie",
+   "quarters": "T3–T1"
+  },
+  {
+   "species": "Rață mare",
+   "start": "1 septembrie",
+   "end": "15 februarie",
+   "quarters": "T3–T1"
+  },
+  {
+   "species": "Lișiță / porumbei / rață mică",
+   "start": "1 septembrie",
+   "end": "10 februarie",
+   "quarters": "T3–T1"
+  },
+  {
+   "species": "Ciocârlie-de-câmp",
+   "start": "15 septembrie",
+   "end": "31 octombrie",
+   "quarters": "T3–T4"
+  },
+  {
+   "species": "Ieruncă",
+   "start": "15 septembrie",
+   "end": "15 decembrie",
+   "quarters": "T3–T4"
+  },
+  {
+   "species": "Potârniche",
+   "start": "15 septembrie",
+   "end": "31 decembrie",
+   "quarters": "T3–T4"
+  },
+  {
+   "species": "Fazan",
+   "start": "1 octombrie",
+   "end": "28 februarie",
+   "quarters": "T4–T1"
+  },
+  {
+   "species": "Gârliță mare",
+   "start": "15 octombrie",
+   "end": "15 februarie",
+   "quarters": "T4–T1"
+  }
+ ]
+}
