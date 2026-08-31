@@ -2,6 +2,7 @@ import { Link, Route, Switch } from "wouter";
 import Index from "./pages/index";
 import AuthPage from "./pages/auth";
 import ContPage from "./pages/cont";
+import StartPage from "./pages/start";
 import RevizuirePage from "./pages/revizuire";
 import ArmePage from "./pages/arme";
 import ArmuriiPage from "./pages/armurii";
@@ -51,6 +52,7 @@ function App() {
         <Route path="/" component={Index} />
         <Route path="/auth" component={AuthPage} />
         <Route path="/cont" component={ContPage} />
+        <Route path="/start" component={StartPage} />
         <Route path="/revizuire" component={RevizuirePage} />
         <Route path="/arme" component={ArmePage} />
         <Route path="/armurii" component={ArmuriiPage} />

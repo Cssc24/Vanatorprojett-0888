@@ -31,7 +31,7 @@ export default function AuthPage() {
         setError(translate(result.error.message ?? result.error.statusText ?? ""));
         return;
       }
-      navigate("/revizuire");
+      navigate(mode === "signup" ? "/start" : "/revizuire");
     } catch {
       setError("Ceva nu a funcționat. Încearcă din nou.");
     } finally {
@@ -43,7 +43,7 @@ export default function AuthPage() {
     setError("");
     setGooglePending(true);
     try {
-      await authClient.signIn.social({ provider: "google", callbackURL: "/revizuire" });
+      await authClient.signIn.social({ provider: "google", callbackURL: "/start" });
     } catch {
       setError("Autentificarea cu Google nu a reușit.");
     } finally {
