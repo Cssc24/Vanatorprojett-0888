@@ -10,7 +10,7 @@ const googleConfigured =
 
 export const auth = betterAuth({
   basePath: "/api/auth",
-  baseURL: process.env.WEBSITE_URL,
+  baseURL: process.env.WEBSITE_URL?.trim(),
   database: drizzleAdapter(db, { provider: "sqlite" }),
   emailAndPassword: { enabled: true },
   socialProviders: googleConfigured
